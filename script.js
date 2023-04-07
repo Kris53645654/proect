@@ -130,13 +130,13 @@ console.log(prefix);
 //let NumofAdult = 0
 //let arrayOfAge = [13, 12, 7, 28, 45, 63, 2]
 //for (let i = 0; i < arrayOfAge.length; i++) {
- //   if (arrayOfAge[i] > 18) {
+//   if (arrayOfAge[i] > 18) {
 //NumofAdult++
 //}else{
 // NumofChild++
 //}
-    
-    //console.log(arrayOfAge[i])
+
+//console.log(arrayOfAge[i])
 //}
 
 //console.log('Num of Child: '+ NumofChild);
@@ -147,36 +147,57 @@ console.log(prefix);
 //array.push(7)
 //console.log(array);
 //for(let index = 0; index < array.length; index++){
-    //array[index] =  array[index] *2
+//array[index] =  array[index] *2
 //}
 //console.log(array);
 
 // arrayOfAge = []
 //for(let i = 0; i < 10; i++){
-    //let random = Math.floor(Math.random() *29 + 1)
-    //arrayOfAge.push(random)
-   
+//let random = Math.floor(Math.random() *29 + 1)
+//arrayOfAge.push(random)
+
 //}
 //console.log(arrayOfAge);
 
 //let filteredArr = []
 //for (let i = 0; i < arrayOfAge.length; i++) {
 //let age = arrayOfAge [i]
- //if (age > 17) {
-  //  filteredArr.push(age)
- //}
+//if (age > 17) {
+//  filteredArr.push(age)
+//}
 //}
 //console.log(filteredArr);
 
-let arr = [1,2,3,4,5]
+let arr = [1, 2, 3, 4, 5]
 //arr.forEach(function(value,index) {
-    //console.log(index +':' + value);
-   // arr[index] = value *5
+//console.log(index +':' + value);
+// arr[index] = value *5
 //})
 //console.log(arr);
 
-let newArr = arr.map(function(value,index) {
-return value * 5 
+let newArr = arr.map(function (value, index) {
+    return value * 5
 })
 console.log(arr);
 console.log(newArr);
+
+let p = 1
+for (let i = 8; i < 16; i++) {
+    p = p * i 
+}
+console.log('Сумма произведений равна: ' + p)
+
+let t = 1
+let count = 0
+for (let i = 1; i < 1000; i++) {
+    count++
+    t = t + i 
+
+}
+console.log('Среднее арифметическое равно: ' + (t/count))
+
+
+
+
+
+
