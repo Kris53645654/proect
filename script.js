@@ -55,7 +55,7 @@ if (age2 > 18) {
         prefix = 'Mrs'
     }
 } else {
-    if (gender == 'Male') {
+    if (gender == 'Famale') {
         prefix = 'boy'
     } else {
         prefix = 'girl'
@@ -168,7 +168,7 @@ console.log(prefix);
 //}
 //console.log(filteredArr);
 
-let arr = [1, 2, 3, 4, 5]
+//let arr = [1, 2, 3, 4, 5]
 //arr.forEach(function(value,index) {
 //console.log(index +':' + value);
 // arr[index] = value *5
@@ -183,19 +183,55 @@ console.log(newArr);
 
 let p = 1
 for (let i = 8; i < 16; i++) {
-    p = p * i 
+    p = p * i
 }
 console.log('Сумма произведений равна: ' + p)
+
+let arr6 = []
+for (let d = 0; d < 12; d++) {
+    arr6[d] = d + 1
+}
+for (let d = 0; d < 12; d++) {
+    console.log(arr6[d])
+}
+
+let arr8 = [2, 5, 7, 2, 1]
+let t1 = arr8[0]
+for (let p = 0; p < 5; p++) {
+    arr8[p] = arr8[p] / t1
+    console.log(arr8[p])
+}
 
 let t = 1
 let count = 0
 for (let i = 1; i < 1000; i++) {
     count++
-    t = t + i 
+    t = t + i
 
 }
-console.log('Среднее арифметическое равно: ' + (t/count))
+console.log('Среднее арифметическое равно: ' + (t / count))
 
+
+let arr7 = []
+for (let v = 0; v < 20; v++) {
+    arr7[v] = 20 - v
+    console.log(arr7[v])
+}
+
+let y = [1, 4, 6, 3]
+let sum2 = 0
+for (let i = 0; i < 4; i++) {
+    sum2 = sum2 + y[i]
+}
+console.log(sum2)
+
+
+let u = [1, 4, 6, 3]
+let mult3 = 1
+for (let i = 1; i < 4; i++) {
+    mult3 = mult3 * u[i]
+}
+console.log(mult3)
 
 
 
